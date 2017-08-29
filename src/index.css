@@ -1,0 +1,26 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.columncenter{
+  height: 200px
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  resize: vertical;
+  overflow: auto;
+}
+
+.welcome {
+  overflow: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
